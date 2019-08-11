@@ -320,18 +320,6 @@ public class MazeGrid
         return outHorizontalWalls;
     }
 
-    private static int[] CreateSets(int width, int height)
-    {
-        int[] outSets = new int[width * height];
-
-        for (int index = 0; index < outSets.Length; index++)
-        {
-            outSets[index] = -1;
-        }
-
-        return outSets;
-    }
-
     private static bool IsValidDirection(Direction direction, int cellIndex, int width, int height)
     {
         switch (direction)
@@ -350,6 +338,32 @@ public class MazeGrid
         }
 
         return false;
+    }
+
+    public MazeLocation GetRandomLocation()
+    {
+        int row;
+        int column;
+
+        do
+        {
+            column = UnityEngine.Random.Range(1, ColumnCount - 1);
+            row = UnityEngine.Random.Range(1, RowCount - 1);
+        } while (!GetCell(column, row).IsWalkable);
+
+        return new MazeLocation(column, row);
+    }
+
+    private static int[] CreateSets(int width, int height)
+    {
+        int[] outSets = new int[width * height];
+
+        for (int index = 0; index < outSets.Length; index++)
+        {
+            outSets[index] = -1;
+        }
+
+        return outSets;
     }
 
     private static bool AreAllSameSet(int[] sets)

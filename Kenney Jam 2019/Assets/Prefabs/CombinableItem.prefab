@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7025632199476383728
+--- !u!1 &1318846960984563558
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6825356451811377443}
-  - component: {fileID: 3907073350814729787}
-  - component: {fileID: 602146837591012138}
-  - component: {fileID: 8895108580518229894}
-  - component: {fileID: 8563121422734811650}
+  - component: {fileID: 1644472613416408273}
+  - component: {fileID: 8420982392131062412}
+  - component: {fileID: 767211914510798642}
+  - component: {fileID: 4731270763253642722}
   m_Layer: 0
-  m_Name: Player
+  m_Name: CombinableItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6825356451811377443
+--- !u!4 &1644472613416408273
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025632199476383728}
+  m_GameObject: {fileID: 1318846960984563558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,13 +33,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3907073350814729787
+--- !u!212 &8420982392131062412
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025632199476383728}
+  m_GameObject: {fileID: 1318846960984563558}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -69,40 +68,27 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1781310317
-  m_SortingLayer: 1
+  m_SortingLayerID: -1444801225
+  m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3165533087071338629, guid: aeb965e80abfb2a4997a54ae14539226,
-    type: 3}
-  m_Color: {r: 0.972549, g: 0.972549, b: 0.972549, a: 1}
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &602146837591012138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025632199476383728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 047b270c73681c04ca9ebeeaaf112716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &8895108580518229894
+--- !u!61 &767211914510798642
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025632199476383728}
+  m_GameObject: {fileID: 1318846960984563558}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -120,26 +106,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
---- !u!50 &8563121422734811650
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &4731270763253642722
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025632199476383728}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_GameObject: {fileID: 1318846960984563558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a199105f440252c43abe1985732a8e41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickupSound: {fileID: 8300000, guid: abcfdc58673b1f14bba1cfe8ed8f3eed, type: 3}
+  _ItemDef: {fileID: 0}
+  PointsPrefab: {fileID: -6087282344529874309, guid: 81a57f3e2adfaba47843ab7887c9ccbe,
+    type: 3}

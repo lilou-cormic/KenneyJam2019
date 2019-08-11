@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static int Score { get; private set; }
-    public static int HighScore { get; private set; }
-    public static int ScoreMultiplier { get; private set; }
+    public static int Score { get; private set; } = 0;
+    public static int HighScore { get; private set; } = 0;
+    public static int ScoreMultiplier { get; private set; } = 1;
 
     public static event Action ScoreChanged;
 
@@ -15,7 +15,7 @@ public class ScoreManager : MonoBehaviour
     
         //HACK ScoreReset
         //Score = 0;
-        ScoreMultiplier = 1;
+        //ScoreMultiplier = 1;
     }
 
     public static int AddPoints(int points)

@@ -1305,7 +1305,7 @@ PrefabInstance:
     - target: {fileID: 1353654914726592220, guid: 3add6d101f6c49d469ce6a3d6f44e8db,
         type: 3}
       propertyPath: SceneName
-      value: Quit
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 3595985525214654860, guid: 3add6d101f6c49d469ce6a3d6f44e8db,
         type: 3}

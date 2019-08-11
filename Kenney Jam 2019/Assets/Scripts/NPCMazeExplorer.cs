@@ -39,17 +39,10 @@ public class NPCMazeExplorer : MazeExplorer
 
     public void SetRandomLocation()
     {
-        int row;
-        int column;
+        var randomLocation = Maze.GetRandomLocation();
 
-        do
-        {
-            column = Random.Range(1, Maze.ColumnCount - 1);
-            row = Random.Range(1, Maze.RowCount - 1);
-        } while (!Maze.GetCell(column, row).IsWalkable);
-
-        Location.Row = row;
-        Location.Column = column;
+        Location.Row = randomLocation.Row;
+        Location.Column = randomLocation.Column;
 
         _currentDirection = DirectionExtensions.GetRandomDirection();
     }

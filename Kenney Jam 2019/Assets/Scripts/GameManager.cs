@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +12,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private GameObject WallPrefab = null;
+
+    [SerializeField]
+    private CombinableItem ItemPrefab = null;
 
     [SerializeField]
     private AudioClip EndReachedSound = null;
@@ -67,6 +71,8 @@ public class GameManager : MonoBehaviour
 
     private void NewMaze()
     {
+        LoadInventory();
+
         Maze = MazeGrid.CreateMaze(Options);
 
         Maze.Player = Instantiate(PlayerPrefab, transform);
@@ -75,7 +81,7 @@ public class GameManager : MonoBehaviour
         Maze.Player.Location.Column = Maze.GetStartColumn();
         Maze.Player.SetPosition();
 
-        int interceptorCount = Options.InterceptorCount + (ScoreManager.Score / 10);
+        int interceptorCount = Options.InterceptorCount + ((ScoreManager.ScoreMultiplier -1) / 10);
 
         for (int i = 0; i < interceptorCount; i++)
         {
@@ -86,6 +92,14 @@ public class GameManager : MonoBehaviour
             interceptor.SetPosition();
 
             Maze.AddInterceptor(interceptor);
+        }
+
+        for (int i = 0; i < UnityEngine.Random.Range(0, 4); i++)
+        {
+            var itemLocation = Maze.GetRandomLocation();
+
+            CombinableItem item = Instantiate(ItemPrefab, new Vector3(itemLocation.Column, -itemLocation.Row), Quaternion.identity, transform);
+            item.ItemDef = Inventory.GetRandomItemDef();
         }
 
         RenderWalls();
@@ -122,11 +136,10 @@ public class GameManager : MonoBehaviour
 
     private void Maze_EndReached()
     {
-        ScoreManager.AddPoints(1);
+        ScoreManager.IncrementMultiplier();
 
         SoundPlayer.Play(EndReachedSound);
 
-        //TODO Win!
         NewGame();
     }
 
@@ -137,6 +150,22 @@ public class GameManager : MonoBehaviour
         SoundPlayer.Play(GameOverSound);
 
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+    }
+
+    public static void SaveInventory()
+    {
+        //PlayerPrefs.SetString("Inventory", Inventory.ToXElement("Inventory").ToString());
+    }
+
+    private static void LoadInventory()
+    {
+        /*
+        string inventoryString = PlayerPrefs.GetString("Inventory");
+        if (string.IsNullOrWhiteSpace(inventoryString))
+            return;
+
+        Inventory.FromXElement(XElement.Parse(inventoryString));
+        */
     }
 
     public static void QuitGame()
