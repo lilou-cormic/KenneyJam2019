@@ -55,13 +55,13 @@ TextureImporter:
     second: monochrome_transparent_16
   - first:
       213: -6480629133277698342
-    second: monochrome_transparent_17
+    second: tile_brick_topLeft
   - first:
       213: 1114963644105759085
-    second: monochrome_transparent_18
+    second: tile_brick_top
   - first:
       213: 2180703520582962731
-    second: monochrome_transparent_19
+    second: tile_brick_topRight
   - first:
       213: -314004105194104331
     second: monochrome_transparent_20
@@ -76,22 +76,22 @@ TextureImporter:
     second: monochrome_transparent_23
   - first:
       213: -521816326939231705
-    second: monochrome_transparent_24
+    second: character_noEquipment
   - first:
       213: -2542404948912927477
-    second: monochrome_transparent_25
+    second: character_spear
   - first:
       213: -3165533087071338629
-    second: monochrome_transparent_26
+    second: character_swordShield
   - first:
       213: -964951486288933399
-    second: monochrome_transparent_27
+    second: character_armorSwordShield
   - first:
       213: -6556148911816654803
-    second: monochrome_transparent_28
+    second: character_armorSpearShield
   - first:
       213: -1390446471985751337
-    second: monochrome_transparent_29
+    second: character_armor
   - first:
       213: -4092034517159579649
     second: monochrome_transparent_30
@@ -151,13 +151,13 @@ TextureImporter:
     second: monochrome_transparent_48
   - first:
       213: -7162040614057053401
-    second: monochrome_transparent_49
+    second: tile_brick_left
   - first:
       213: -6418820718253649500
-    second: monochrome_transparent_50
+    second: tile_brick_center
   - first:
       213: -2522222145766828826
-    second: monochrome_transparent_51
+    second: tile_brick_right
   - first:
       213: 1982777705515825379
     second: monochrome_transparent_52
@@ -247,13 +247,13 @@ TextureImporter:
     second: monochrome_transparent_80
   - first:
       213: 1287583456727687412
-    second: monochrome_transparent_81
+    second: tile_brick_bottomLeft
   - first:
       213: 3504306367706048217
-    second: monochrome_transparent_82
+    second: tile_brick_bottom
   - first:
       213: -8917425960339933771
-    second: monochrome_transparent_83
+    second: tile_brick_bottomRight
   - first:
       213: -2217653452879179627
     second: monochrome_transparent_84
@@ -343,16 +343,16 @@ TextureImporter:
     second: monochrome_transparent_112
   - first:
       213: -3343784782070253918
-    second: monochrome_transparent_113
+    second: tile_brick_middle_topLeft
   - first:
       213: 2731785944090917951
-    second: monochrome_transparent_114
+    second: tile_brick_middle_topRight
   - first:
       213: 6316203983379033775
-    second: monochrome_transparent_115
+    second: tile_brick_edge_topLeft
   - first:
       213: 7210101738113479272
-    second: monochrome_transparent_116
+    second: tile_brick_edge_topRight
   - first:
       213: -5365073154823918677
     second: monochrome_transparent_117
@@ -439,16 +439,16 @@ TextureImporter:
     second: monochrome_transparent_144
   - first:
       213: 8905563057578596640
-    second: monochrome_transparent_145
+    second: tile_brick_middle_bottomLeft
   - first:
       213: -2339631988449960556
-    second: monochrome_transparent_146
+    second: tile_brick_middle_bottomRight
   - first:
       213: 8004425069507489287
-    second: monochrome_transparent_147
+    second: tile_brick_edge_bottomLeft
   - first:
       213: -2074715429488938882
-    second: monochrome_transparent_148
+    second: tile_brick_edge_bottomRight
   - first:
       213: 5648961800711306738
     second: monochrome_transparent_149
@@ -583,10 +583,10 @@ TextureImporter:
     second: monochrome_transparent_192
   - first:
       213: 7540706628381054487
-    second: monochrome_transparent_193
+    second: tile_stairs_up
   - first:
       213: 713755304233870359
-    second: monochrome_transparent_194
+    second: tile_stairs_down
   - first:
       213: -1388787325697541228
     second: monochrome_transparent_195
@@ -664,7 +664,7 @@ TextureImporter:
     second: monochrome_transparent_219
   - first:
       213: -8717331595836470999
-    second: monochrome_transparent_220
+    second: enemy_skeleton
   - first:
       213: -7206691718594931742
     second: monochrome_transparent_221
@@ -1222,7 +1222,7 @@ TextureImporter:
     second: monochrome_transparent_405
   - first:
       213: -3120575983473397643
-    second: monochrome_transparent_406
+    second: tile_rounded_middle
   - first:
       213: -4713797495936880559
     second: monochrome_transparent_407
@@ -1297,28 +1297,28 @@ TextureImporter:
     second: monochrome_transparent_430
   - first:
       213: -7570007968643765631
-    second: monochrome_transparent_431
+    second: tile_castle_topLef
   - first:
       213: -4774791618578358011
-    second: monochrome_transparent_432
+    second: tile_castle_top
   - first:
       213: -4643308032393631804
-    second: monochrome_transparent_433
+    second: tile_castle_topRight
   - first:
       213: -5942531890273562299
-    second: monochrome_transparent_434
+    second: tile_castle_edge
   - first:
       213: 7904145523321504660
-    second: monochrome_transparent_435
+    second: tile_castle_middle
   - first:
       213: -6473466029450095126
-    second: monochrome_transparent_436
+    second: tile_stone_edge
   - first:
       213: -661878805262617805
-    second: monochrome_transparent_437
+    second: tile_stone_middle
   - first:
       213: 7395426897523495604
-    second: monochrome_transparent_438
+    second: tile_rounded_edge
   - first:
       213: 4165219402147661149
     second: monochrome_transparent_439
@@ -1393,13 +1393,13 @@ TextureImporter:
     second: monochrome_transparent_462
   - first:
       213: -3932053015278639689
-    second: monochrome_transparent_463
+    second: tile_castle_left
   - first:
       213: -5353286510462407544
-    second: monochrome_transparent_464
+    second: tile_castle_center
   - first:
       213: 1502736581889936155
-    second: monochrome_transparent_465
+    second: tile_castle_right
   - first:
       213: 2698393075829897167
     second: crosshair_1
@@ -1489,13 +1489,13 @@ TextureImporter:
     second: monochrome_transparent_494
   - first:
       213: 5207011016009670469
-    second: monochrome_transparent_495
+    second: tile_castle_bottomLeft
   - first:
       213: -3564954923509984069
-    second: monochrome_transparent_496
+    second: tile_castle_bottom
   - first:
       213: -8172982625589484928
-    second: monochrome_transparent_497
+    second: tile_castle_bottomRight
   - first:
       213: -1518708658402588534
     second: monochrome_transparent_498
@@ -1585,13 +1585,13 @@ TextureImporter:
     second: monochrome_transparent_526
   - first:
       213: -6609272963162444890
-    second: monochrome_transparent_527
+    second: tile_stone_topLeft
   - first:
       213: -8391279444862688690
-    second: monochrome_transparent_528
+    second: tile_stone_top
   - first:
       213: -217484298681394689
-    second: monochrome_transparent_529
+    second: tile_stone_topRight
   - first:
       213: 7495725345693984460
     second: card_placeholder
@@ -1681,13 +1681,13 @@ TextureImporter:
     second: monochrome_transparent_558
   - first:
       213: -4793556849746537223
-    second: monochrome_transparent_559
+    second: tile_stone_left
   - first:
       213: 5136407477179128171
-    second: monochrome_transparent_560
+    second: tile_stone_center
   - first:
       213: -1553784744259619969
-    second: monochrome_transparent_561
+    second: tile_stone_right
   - first:
       213: -3311509676744458549
     second: card_back
@@ -1777,13 +1777,13 @@ TextureImporter:
     second: monochrome_transparent_590
   - first:
       213: 6862073925872544365
-    second: monochrome_transparent_591
+    second: tile_stone_bottomLeft
   - first:
       213: -5166900480681948513
-    second: monochrome_transparent_592
+    second: tile_stone_bottom
   - first:
       213: -3213237895555106547
-    second: monochrome_transparent_593
+    second: tile_stone_bottomRight
   - first:
       213: 6412778603182852138
     second: card_blank
@@ -1873,13 +1873,13 @@ TextureImporter:
     second: monochrome_transparent_622
   - first:
       213: -1449944691934502272
-    second: monochrome_transparent_623
+    second: tile_rounded_topLeft
   - first:
       213: -6417767734592784344
-    second: monochrome_transparent_624
+    second: tile_rounded_top
   - first:
       213: -6087065998319645091
-    second: monochrome_transparent_625
+    second: tile_rounded_topRight
   - first:
       213: 3462558677353838679
     second: card_card
@@ -1969,13 +1969,13 @@ TextureImporter:
     second: monochrome_transparent_654
   - first:
       213: -4951348921520570384
-    second: monochrome_transparent_655
+    second: tile_rounded_left
   - first:
       213: -1213395053640911381
-    second: monochrome_transparent_656
+    second: tile_rounded_center
   - first:
       213: -5235770053609181805
-    second: monochrome_transparent_657
+    second: tile_rounded_right
   - first:
       213: 7591420837893856965
     second: monochrome_transparent_658
@@ -1990,16 +1990,16 @@ TextureImporter:
     second: monochrome_transparent_661
   - first:
       213: -1698399526743140225
-    second: monochrome_transparent_662
+    second: chevron_plain_up
   - first:
       213: -6215312484552679055
-    second: monochrome_transparent_663
+    second: chevron_plain_right
   - first:
       213: -3083396213887651481
-    second: monochrome_transparent_664
+    second: chevron_plain_down
   - first:
       213: 6529256140564585385
-    second: monochrome_transparent_665
+    second: chevron_plain_left
   - first:
       213: 4985222863363566421
     second: controls_arrows_black_none
@@ -2065,13 +2065,13 @@ TextureImporter:
     second: monochrome_transparent_686
   - first:
       213: 8280742621986729962
-    second: monochrome_transparent_687
+    second: tile_rounded_bottomLeft
   - first:
       213: 8724694411251287578
-    second: monochrome_transparent_688
+    second: tile_rounded_bottom
   - first:
       213: 6191934646792156190
-    second: monochrome_transparent_689
+    second: tile_rounded_bottomRight
   - first:
       213: 7767010777246357513
     second: monochrome_transparent_690
@@ -2086,16 +2086,16 @@ TextureImporter:
     second: monochrome_transparent_693
   - first:
       213: 8181298581908474634
-    second: monochrome_transparent_694
+    second: chevron_outlined_up
   - first:
       213: -5672435108373510614
-    second: monochrome_transparent_695
+    second: chevron_outlined_right
   - first:
       213: 6049103727734838148
-    second: monochrome_transparent_696
+    second: chevron_outlined_down
   - first:
       213: 2779297292915821497
-    second: monochrome_transparent_697
+    second: chevron_outlined_left
   - first:
       213: -8284511252298648782
     second: controls_arrows_white_none
@@ -2746,10 +2746,10 @@ TextureImporter:
     second: item_cheese
   - first:
       213: -8278293296224395627
-    second: character_dollar
+    second: text_dollar
   - first:
       213: -6009648761563342632
-    second: character_cent
+    second: text_cent
   - first:
       213: -3577842813315758689
     second: icon_soundOff
@@ -2872,13 +2872,13 @@ TextureImporter:
     second: number_9
   - first:
       213: -6654744621412042489
-    second: character_colon
+    second: text_colon
   - first:
       213: 5645637503947473599
-    second: character_period
+    second: text_period
   - first:
       213: -4910468985253987826
-    second: character_percentage
+    second: text_percentage
   - first:
       213: 5667362141084502162
     second: monochrome_transparent_959
@@ -3731,7 +3731,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_17
+      name: tile_brick_topLeft
       rect:
         serializedVersion: 2
         x: 306
@@ -3752,7 +3752,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_18
+      name: tile_brick_top
       rect:
         serializedVersion: 2
         x: 323
@@ -3773,7 +3773,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_19
+      name: tile_brick_topRight
       rect:
         serializedVersion: 2
         x: 340
@@ -3878,7 +3878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_24
+      name: character_noEquipment
       rect:
         serializedVersion: 2
         x: 425
@@ -3899,7 +3899,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_25
+      name: character_spear
       rect:
         serializedVersion: 2
         x: 442
@@ -3920,7 +3920,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_26
+      name: character_swordShield
       rect:
         serializedVersion: 2
         x: 459
@@ -3941,7 +3941,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_27
+      name: character_armorSwordShield
       rect:
         serializedVersion: 2
         x: 476
@@ -3962,7 +3962,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_28
+      name: character_armorSpearShield
       rect:
         serializedVersion: 2
         x: 493
@@ -3983,7 +3983,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_29
+      name: character_armor
       rect:
         serializedVersion: 2
         x: 510
@@ -4403,7 +4403,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_49
+      name: tile_brick_left
       rect:
         serializedVersion: 2
         x: 306
@@ -4424,7 +4424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_50
+      name: tile_brick_center
       rect:
         serializedVersion: 2
         x: 323
@@ -4445,7 +4445,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_51
+      name: tile_brick_right
       rect:
         serializedVersion: 2
         x: 340
@@ -5075,7 +5075,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_81
+      name: tile_brick_bottomLeft
       rect:
         serializedVersion: 2
         x: 306
@@ -5096,7 +5096,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_82
+      name: tile_brick_bottom
       rect:
         serializedVersion: 2
         x: 323
@@ -5117,7 +5117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_83
+      name: tile_brick_bottomRight
       rect:
         serializedVersion: 2
         x: 340
@@ -5747,7 +5747,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_113
+      name: tile_brick_middle_topLeft
       rect:
         serializedVersion: 2
         x: 306
@@ -5768,7 +5768,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_114
+      name: tile_brick_middle_topRight
       rect:
         serializedVersion: 2
         x: 323
@@ -5789,7 +5789,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_115
+      name: tile_brick_edge_topLeft
       rect:
         serializedVersion: 2
         x: 340
@@ -5810,7 +5810,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_116
+      name: tile_brick_edge_topRight
       rect:
         serializedVersion: 2
         x: 357
@@ -6419,7 +6419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_145
+      name: tile_brick_middle_bottomLeft
       rect:
         serializedVersion: 2
         x: 306
@@ -6440,7 +6440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_146
+      name: tile_brick_middle_bottomRight
       rect:
         serializedVersion: 2
         x: 323
@@ -6461,7 +6461,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_147
+      name: tile_brick_edge_bottomLeft
       rect:
         serializedVersion: 2
         x: 340
@@ -6482,7 +6482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_148
+      name: tile_brick_edge_bottomRight
       rect:
         serializedVersion: 2
         x: 357
@@ -7427,7 +7427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_193
+      name: tile_stairs_up
       rect:
         serializedVersion: 2
         x: 34
@@ -7448,7 +7448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_194
+      name: tile_stairs_down
       rect:
         serializedVersion: 2
         x: 51
@@ -7994,7 +7994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_220
+      name: enemy_skeleton
       rect:
         serializedVersion: 2
         x: 493
@@ -11900,7 +11900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_406
+      name: tile_rounded_middle
       rect:
         serializedVersion: 2
         x: 391
@@ -12425,7 +12425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_431
+      name: tile_castle_topLef
       rect:
         serializedVersion: 2
         x: 272
@@ -12446,7 +12446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_432
+      name: tile_castle_top
       rect:
         serializedVersion: 2
         x: 289
@@ -12467,7 +12467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_433
+      name: tile_castle_topRight
       rect:
         serializedVersion: 2
         x: 306
@@ -12488,7 +12488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_434
+      name: tile_castle_edge
       rect:
         serializedVersion: 2
         x: 323
@@ -12509,7 +12509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_435
+      name: tile_castle_middle
       rect:
         serializedVersion: 2
         x: 340
@@ -12530,7 +12530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_436
+      name: tile_stone_edge
       rect:
         serializedVersion: 2
         x: 357
@@ -12551,7 +12551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_437
+      name: tile_stone_middle
       rect:
         serializedVersion: 2
         x: 374
@@ -12572,7 +12572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_438
+      name: tile_rounded_edge
       rect:
         serializedVersion: 2
         x: 391
@@ -13097,7 +13097,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_463
+      name: tile_castle_left
       rect:
         serializedVersion: 2
         x: 272
@@ -13118,7 +13118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_464
+      name: tile_castle_center
       rect:
         serializedVersion: 2
         x: 289
@@ -13139,7 +13139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_465
+      name: tile_castle_right
       rect:
         serializedVersion: 2
         x: 306
@@ -13769,7 +13769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_495
+      name: tile_castle_bottomLeft
       rect:
         serializedVersion: 2
         x: 272
@@ -13790,7 +13790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_496
+      name: tile_castle_bottom
       rect:
         serializedVersion: 2
         x: 289
@@ -13811,7 +13811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_497
+      name: tile_castle_bottomRight
       rect:
         serializedVersion: 2
         x: 306
@@ -14441,7 +14441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_527
+      name: tile_stone_topLeft
       rect:
         serializedVersion: 2
         x: 272
@@ -14462,7 +14462,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_528
+      name: tile_stone_top
       rect:
         serializedVersion: 2
         x: 289
@@ -14483,7 +14483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_529
+      name: tile_stone_topRight
       rect:
         serializedVersion: 2
         x: 306
@@ -15113,7 +15113,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_559
+      name: tile_stone_left
       rect:
         serializedVersion: 2
         x: 272
@@ -15134,7 +15134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_560
+      name: tile_stone_center
       rect:
         serializedVersion: 2
         x: 289
@@ -15155,7 +15155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_561
+      name: tile_stone_right
       rect:
         serializedVersion: 2
         x: 306
@@ -15785,7 +15785,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_591
+      name: tile_stone_bottomLeft
       rect:
         serializedVersion: 2
         x: 272
@@ -15806,7 +15806,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_592
+      name: tile_stone_bottom
       rect:
         serializedVersion: 2
         x: 289
@@ -15827,7 +15827,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_593
+      name: tile_stone_bottomRight
       rect:
         serializedVersion: 2
         x: 306
@@ -16457,7 +16457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_623
+      name: tile_rounded_topLeft
       rect:
         serializedVersion: 2
         x: 272
@@ -16478,7 +16478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_624
+      name: tile_rounded_top
       rect:
         serializedVersion: 2
         x: 289
@@ -16499,7 +16499,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_625
+      name: tile_rounded_topRight
       rect:
         serializedVersion: 2
         x: 306
@@ -17129,7 +17129,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_655
+      name: tile_rounded_left
       rect:
         serializedVersion: 2
         x: 272
@@ -17150,7 +17150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_656
+      name: tile_rounded_center
       rect:
         serializedVersion: 2
         x: 289
@@ -17171,7 +17171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_657
+      name: tile_rounded_right
       rect:
         serializedVersion: 2
         x: 306
@@ -17276,7 +17276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_662
+      name: chevron_plain_up
       rect:
         serializedVersion: 2
         x: 391
@@ -17297,7 +17297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_663
+      name: chevron_plain_right
       rect:
         serializedVersion: 2
         x: 408
@@ -17318,7 +17318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_664
+      name: chevron_plain_down
       rect:
         serializedVersion: 2
         x: 425
@@ -17339,7 +17339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_665
+      name: chevron_plain_left
       rect:
         serializedVersion: 2
         x: 442
@@ -17801,7 +17801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_687
+      name: tile_rounded_bottomLeft
       rect:
         serializedVersion: 2
         x: 272
@@ -17822,7 +17822,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_688
+      name: tile_rounded_bottom
       rect:
         serializedVersion: 2
         x: 289
@@ -17843,7 +17843,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_689
+      name: tile_rounded_bottomRight
       rect:
         serializedVersion: 2
         x: 306
@@ -17948,7 +17948,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_694
+      name: chevron_outlined_up
       rect:
         serializedVersion: 2
         x: 391
@@ -17969,7 +17969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_695
+      name: chevron_outlined_right
       rect:
         serializedVersion: 2
         x: 408
@@ -17990,7 +17990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_696
+      name: chevron_outlined_down
       rect:
         serializedVersion: 2
         x: 425
@@ -18011,7 +18011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_transparent_697
+      name: chevron_outlined_left
       rect:
         serializedVersion: 2
         x: 442
@@ -22568,7 +22568,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_dollar
+      name: text_dollar
       rect:
         serializedVersion: 2
         x: 323
@@ -22589,7 +22589,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_cent
+      name: text_cent
       rect:
         serializedVersion: 2
         x: 340
@@ -23450,7 +23450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_colon
+      name: text_colon
       rect:
         serializedVersion: 2
         x: 493
@@ -23471,7 +23471,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_period
+      name: text_period
       rect:
         serializedVersion: 2
         x: 510
@@ -23492,7 +23492,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_percentage
+      name: text_percentage
       rect:
         serializedVersion: 2
         x: 527
