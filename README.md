@@ -10,7 +10,7 @@ Game created by lilou_cormic for [Kenney Jam 2019](https://itch.io/jam/kenney-ja
 
 Contains music and sounds ©2019 Joshua McLean (www.mrjoshuamclean.com) Licensed under Creative Commons Attribution-ShareAlike 4.0 International
 
-Contains assets (graphics and fon) by Kenney (www.kenney.nl) Licensed under Creative Commons CC0 1.0 Universal
+Contains assets (graphics and font) by Kenney (www.kenney.nl) Licensed under Creative Commons CC0 1.0 Universal
 
 Tools Used
 - Unity 2019.2.0f1
