@@ -6,7 +6,7 @@
 
 https://lilou-cormic.itch.io/spunkiver
 
-Game created by lilou_cormic for [Kenney Jam 2019](https://itch.io/jam/kenney-jam-2019) and [GB30 Jam [8 Bits to Infinity] (August 2019)](https://itch.io/jam/gb30-jam)
+Game created by lilou_cormic for [Kenney Jam 2019](https://itch.io/jam/kenney-jam-2019) and [GB30 Jam [8 Bits to Infinity] (Aug. 2019)](https://itch.io/jam/gb30-jam)
 
 Contains music and sounds ©2019 Joshua McLean (www.mrjoshuamclean.com) Licensed under Creative Commons Attribution-ShareAlike 4.0 International
 
